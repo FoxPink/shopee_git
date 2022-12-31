@@ -10,6 +10,7 @@
   --header-with-search-height: cacl(
     var(--header-height) - var(--navbar-height)
   );
+  --header-sort-bar-height: 46px;
 }
 
 * {
@@ -25,19 +26,6 @@ html {
 }
 
 /* Responsive */
-.grid {
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.grid__full-width {
-  width: 150px;
-}
-
-.grid__column {
-}
-
 .grid__row {
   display: flex;
   flex-wrap: wrap;
